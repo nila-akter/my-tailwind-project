@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- nav area -->
+
+    <header id="header" class="h-16 bg-gradient-to-r from-gray-900 to-gray-800 fixed w-full">
+        <nav id="mainmenu">
+            <ul class="text-center">
+                <li class="active inline-block"><a href="#home" class="block px-4 md:px-10 py-4 text-white text-xl font-semibold transition-all hover:bg-gray-800 hover:text-white"><span>home</span></a></li>
+                <li class="active inline-block"><a href="#about" class="block px-4 md:px-10 py-4 text-white text-xl font-semibold transition-all hover:bg-gray-800 hover:text-white"><span>about</span></a></li>
+                <li class="active inline-block"><a href="#service" class="block px-4 md:px-10 py-4 text-white text-xl font-semibold transition-all hover:bg-gray-800 hover:text-white"><span>service</span></a></li>
+                <li class="active inline-block"><a href="#contact" class="block px-4 md:px-10 py-4 text-white text-xl font-semibold transition-all hover:bg-gray-800 hover:text-white"><span>contact</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- home area -->
+    <section id="home" class="h-screen bg-[url(images/laptop.jpg)] bg-no-repeat bg-cover bg-center">
+        <div class="flex justify-center items-center h-full flex-col">
+            <h2 class="text-5xl font-black m-2 text-white">"Bringing ideas to </h2>
+            <h3 class="text-5xl font-black m-4 mb-5 text-white ">life through code & design"</h3>
+            <input type="text" placeholder="enter anything" class="w-160 border h-10 rounded text-white mt-2">
+        </div>
+    </section>
+
+    <!-- about section -->
+     <section id="about" class="h-screen bg-gray-300 ">
+        <div class="flex flex-col justify-center items-center md:flex-row">
+        <div class="w-160 md:w-150 md:mt-25 md:m-4">
+            <h1 class="text-center text-4xl uppercase font-bold mt-10 md:text-left">about us</h1>
+            <p class="m-5 text-xl md:ml-0">Lorem consectetur. Cumque debitis perspiciatis aliquam voluptatibus?</p>
+            <p class="m-5 font-medium md:ml-0">Lorem ipsum dolor sit. Provident quos esse, mollitia sint quod pariatur, aspernatur vitae ratione dolore cumque, debitis dignissimos suscipit? Numquam enim natus corrupti obcaecati nam doloribus repellendus laborum animi nulla debitis laboriosam, voluptates fugiat minus ipsam consectetur fugit. Quas nam quibusdam consequatur natus eos consequuntur vero?</p>
+            <button class="ml-60 pt-2 pb-2 pl-9 pr-9 mb-6 font-semibold bg-green-900 text-white rounded-xl hover:bg-green-800 md:ml-0 md:mt-2 md:pb-3 md:pt-3">read more</button>
+        </div>
+        <div>
+        <img src="images/man.jpg" alt="pic" class="md:w-160 w-110 h-76 md:h-110 mb-5 md:mt-25 md:w-140 md:h-100 md:mr-6">
+        </div>
+        </div>
+    </section>
+
+    <!-- servise section -->
+     <section id="service" class="h-screen bg-purple-400 w-full">
+        <h2 class=" text-center text-4xl pt-20 font-bold ">our service</h2>
+        <div class=" text-white flex justify-center items-center flex-wrap mt-10 ">
+            <div class=" bg-rose-900 transition-all duration-200 ease-in hover:bg-rose-800 m-2 w-70 h-50 md:w-96 md:h-40 rounded">
+                <h3 class="p-2 ml-1 mt-2 text-2xl font-bold">web design</h3>
+                <p class="p-2 ml-1 font-semibold">Lorem ipsum, dolor sit amet consectetur adipisicing distinctio.</p>
+            </div>
+              <div class="bg-rose-900 transition-all duration-200 ease-in hover:bg-rose-800 m-2 w-70 h-50 md:w-96 md:h-40 rounded">
+                <h3 class="p-2 ml-1 mt-2 text-2xl font-bold">app development</h3>
+                <p class="p-2 ml-1 font-semibold">Lorem ipsum, dolor sit amet consectetur adipisicing distinctio.</p>
+            </div>
+               <div class="bg-rose-900 transition-all duration-200 ease-in hover:bg-rose-800 m-2 w-70 h-50 md:w-96 md:h-40 rounded">
+                <h3 class="p-2 ml-1 mt-2 text-2xl font-bold">digital marketing</h3>
+                <p class="p-2 ml-1 font-semibold">Lorem ipsum, dolor sit amet consectetur adipisicing distinctio.</p>
+            </div>
+               
+               <div class="bg-rose-900 transition-all duration-200 ease-in hover:bg-rose-800 m-2 w-70 h-50 md:w-96 md:h-40 rounded">
+                <h3 class="p-2 ml-1 mt-2 text-2xl font-bold">web design</h3>
+                <p class="p-2 ml-1 font-semibold">Lorem ipsum, dolor sit amet consectetur adipisicing distinctio.</p>
+            </div>
+              <div class="bg-rose-900 transition-all duration-200 ease-in hover:bg-rose-800 m-2 w-70 h-50 md:w-96 md:h-40 rounded hidden md:block">
+                <h3 class="p-2 ml-1 mt-2 text-2xl font-bold">web design</h3>
+                <p class="p-2 ml-1 font-semibold">Lorem ipsum, dolor sit amet consectetur adipisicing distinctio.</p>
+            </div>
+              <div class="bg-rose-900 transition-all duration-200 ease-in hover:bg-rose-800 m-2 w-70 h-50 md:w-96 md:h-40 rounded hidden md:block">
+                <h3 class="p-2 ml-1 mt-2 text-2xl font-bold">web design</h3>
+                <p class="p-2 ml-1 font-semibold">Lorem ipsum, dolor sit amet consectetur adipisicing distinctio.</p>
+            </div>
+           
+        </div>
+     </section>
+
+     <!-- contact section -->
+    <section id="contact" class="h-screen bg-stone-300">
+       <div class="text-center pt-20">
+        <h1 class="text-4xl font-bold mb-3">contact us</h1>
+        <p class="font-semibold md:text-xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae odio nemo fuga nisi velit saepe ipsam sunt corrupti corporis libero?</p>
+       </div>
+       <div class="md:flex md:justify-evenly md:items-center md:mt-20">
+        <div class="md:mb-15">
+       <div class=" ml-10 mb-10 mt-10">
+        <h2 class="text-2xl font-bold mb-1">address</h2>
+       <p class="font-semibold"> mohendropur,kumarkhali,<br>kushtia</p>
+       </div>
+       <div class="ml-10 mb-5">
+        <h2 class="text-2xl font-bold mb-1">phone</h2>
+       <p class="font-semibold"> 01734857295</p>
+       </div>
+       <div class="ml-10 mb-5">
+        <h2 class="text-2xl font-bold mb-1">email</h2>
+       <p class="font-semibold">nahida58@gmail.com</p>
+       </div>
+       </div>
+       <div class=" mb-8 p-3 bg-black md:p-6 rounded-xl text-white">
+        <h1 class="text-2xl font-bold text-gray-400">send message</h1>
+        <div class="relative w-full mt-2">
+        <input type="text" required="required" placeholder="Name" class="w-full pt-1 pb-1 mt-2 mb-2 border-b-3 border-teal-400 outline-none font-semibold">
+        <input type="email" required="required" placeholder="Email" class="w-full pt-1 pb-1 mt-2 mb-2 border-b-3 border-teal-400 outline-none font-semibold">
+        <textarea required="required" placeholder="type your message..." class="w-full pt-1 pb-1 mt-2 mb-2 border-b-3 border-teal-400 outline-none resize-none"></textarea>
+        
+        <input type="submit" value="submit" class="pl-8 pr-8 pt-1 pb-2 mt-4 mb-1 text-xl text-gray-300 font-semibold  border-1 border-teal-400 hover:bg-gray-900 rounded-xl">
+        </div>
+       </div>
+       </div>
+    </section>
+
+    <!-- footer -->
+     <footer class="mt-40 md:mt-0">
+     <div class="md:h-60 w-full text-center bg-teal-900 p-5 md:pt-15">
+        <h1 class="font-bold text-3xl ">made with by a curlous developer - nila</h1>
+        <p class="mt-4 font-bold">Lorem ipsum dolor sit amet.<br>Lorem, ipsum dolor sit amet consectetur adipisicing.<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolorum,  facere totam?</p>
+     </div>
+     </footer>
+    </body>
+</html>
